@@ -58,6 +58,17 @@ header{
   display:none;
 }
 
+.header__navigation--active{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.header__navigation--disabled{
+  display:none;
+}
+
 .header__navigation ul{
   width: 100%;
   height: 100%;
@@ -81,4 +92,41 @@ header{
   color: rgb(240,240,240);
   text-decoration: none;
   font-size: 3.5rem;
+}
+
+
+
+/*CONTENIDO*/
+
+.banner__carousel{
+  display: none;
+}
+
+.banner__titulo {
+  background-color: rgb(190,190,190);
+  background-image: url(https://www.wallpapertip.com/wmimgs/29-295474_mountains-sky-and-nature-annapurna.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  width:100%;
+  height: 88vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.banner__titulo h1{
+  background-color: rgb(150,150,150);
+  height: 30vh;
+  width: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.banner__titulo h1{
+  color: rgb(245,245,245);
+  font-size: 4rem;
+  text-align: center;
 }
