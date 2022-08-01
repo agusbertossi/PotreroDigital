@@ -27,7 +27,7 @@ header{
   align-content: center;
   height: 12vh;
   width: 100%;
-  background-color: rgb(186,85,211);
+  background-color: rgb(250,250,250);
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -103,8 +103,8 @@ header{
 }
 
 .banner__titulo {
-  background-color: rgb(138,43,226);
-  background-image: url(https://www.xtrafondos.com/descargar.php?id=3008&vertical=1);
+  background-color: rgb(216,191,216);
+  background-image: url(https://i.pinimg.com/originals/9f/8c/54/9f8c5434c2fc7a240086e77ca34030eb.jpg);
   background-repeat: repeat;
   background-size: cover;
   width:100%;
@@ -116,7 +116,7 @@ header{
 }
 
 .banner__titulo h1{
-  background-color: rgb(138,43,226);
+  background-color: rgb(250,250,250);
   height: 30vh;
   width: 30vh;
   display: flex;
@@ -126,7 +126,7 @@ header{
 }
 
 .banner__titulo h1{
-  color: rgb(245,245,245);
+  color: rgb(10,10,10);
   font-size: 4rem;
   text-align: center;
 }
@@ -149,6 +149,8 @@ main section{
 
 }
 
+/*SECCION NOSOTROS*/
+
 #us{
   background-color: rgb(230,230,250);
 }
@@ -159,6 +161,34 @@ main section{
   margin-top: 15%;
   text-align: justify;
 
+}
 
+/*SECCION SERVICIOS*/
+
+#services{
+  background-color: rgb(230,230,250);
+  height: auto;
+}
+
+.service__item{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20% 0;
+
+}
+
+.service__image{
+  font-size: 8rem;
+}
+
+.service__imagefa-solidfa-seedling{
+  font-size: 12rem;
+}
+
+.service__item h3{
+  font-size: 4rem
 
 }
