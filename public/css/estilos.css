@@ -13,7 +13,7 @@ body{
 
 img{
   height: 100%;
-  width: 100%;
+  width: 250%;
 }
 
 
@@ -27,7 +27,7 @@ header{
   align-content: center;
   height: 12vh;
   width: 100%;
-  background-color: rgb(250,250,250);
+  background-color: rgb(186,85,211);
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -103,8 +103,8 @@ header{
 }
 
 .banner__titulo {
-  background-color: rgb(190,190,190);
-  background-image: url(https://www.wallpapertip.com/wmimgs/29-295474_mountains-sky-and-nature-annapurna.jpg);
+  background-color: rgb(138,43,226);
+  background-image: url(https://www.xtrafondos.com/descargar.php?id=3008&vertical=1);
   background-repeat: repeat;
   background-size: cover;
   width:100%;
@@ -116,7 +116,7 @@ header{
 }
 
 .banner__titulo h1{
-  background-color: rgb(150,150,150);
+  background-color: rgb(138,43,226);
   height: 30vh;
   width: 30vh;
   display: flex;
@@ -129,4 +129,36 @@ header{
   color: rgb(245,245,245);
   font-size: 4rem;
   text-align: center;
+}
+
+/*MAIN*/
+
+main section{
+  width: 100%;
+  height: : 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 15%;
+}
+
+.section__title{
+  font-size: 4rem;
+  margin-top: 15%;
+
+}
+
+#us{
+  background-color: rgb(230,230,250);
+}
+
+
+#us p{
+  font-size: 2rem;
+  margin-top: 15%;
+  text-align: justify;
+
+
+
 }
