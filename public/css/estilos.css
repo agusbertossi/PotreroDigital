@@ -232,3 +232,21 @@ main section{
   color: black;
 
 }
+
+/*FOOTER*/
+
+footer{
+  height: 12vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(120,120,120);
+
+}
+
+footer span{
+  font-size: 2rem;
+  color:white;
+  text-align: center;
+}
