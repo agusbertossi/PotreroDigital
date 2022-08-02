@@ -1,9 +1,10 @@
 /*GENERAL*/
 html{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Indie Flower', cursive;
 }
 body{
   margin:0;
+  font-family: 'Indie Flower', cursive;
 }
 
 
@@ -95,7 +96,6 @@ header{
 }
 
 
-
 /*CONTENIDO*/
 
 .banner__carousel{
@@ -108,7 +108,7 @@ header{
   background-repeat: repeat;
   background-size: cover;
   width:100%;
-  height: 88vh;
+  height: 65vh;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -116,7 +116,7 @@ header{
 }
 
 .banner__titulo h1{
-  background-color: rgb(250,250,250);
+  background-color: transparent;
   height: 30vh;
   width: 30vh;
   display: flex;
@@ -127,10 +127,15 @@ header{
 
 .banner__titulo h1{
   color: rgb(10,10,10);
-  font-size: 4rem;
+  font-size: 10rem;
   text-align: center;
 }
 
+.image__ong{
+  width: 100%;
+  height: 25%;
+  justify-content:space-background;
+}
 /*MAIN*/
 
 main section{
@@ -144,11 +149,13 @@ main section{
 }
 
 .section__title{
-  font-size: 4rem;
+  font-size: 6rem;
   margin-top: 15%;
 
 }
 
+
+}
 /*SECCION NOSOTROS*/
 
 #us{
@@ -158,7 +165,7 @@ main section{
 
 #us p{
   font-size: 2rem;
-  margin-top: 15%;
+  margin-top: 5%;
   text-align: justify;
 
 }
@@ -166,8 +173,9 @@ main section{
 /*SECCION SERVICIOS*/
 
 #services{
-  background-color: rgb(230,230,250);
+  background-color: rgb(186,85,211);
   height: auto;
+
 }
 
 .service__item{
@@ -178,17 +186,49 @@ main section{
   align-items: center;
   margin: 20% 0;
 
+
 }
 
 .service__image{
   font-size: 8rem;
+  color: white;
 }
 
 .service__imagefa-solidfa-seedling{
   font-size: 12rem;
+  color: white;
+
 }
 
 .service__item h3{
-  font-size: 4rem
+  font-size: 4rem;
+  color: white;
+}
+
+/*CONTACTO*/
+
+#contact{
+  background-color: rgb(230,230,250);
+  height: auto;
+
+}
+
+.contact__item{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20% 0;
+}
+
+.contact__image{
+    font-size: 8rem;
+}
+
+.contact__title{
+  font-size: 4rem;
+  text-decoration: none;
+  color: black;
 
 }
