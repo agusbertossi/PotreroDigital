@@ -250,3 +250,41 @@ footer span{
   color:white;
   text-align: center;
 }
+
+
+@media (min-width: 1000px){
+
+.header_icono{
+  display: none;
+}
+
+.header__navigation{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  background-color: transparent;
+  flex-direction: row;
+  width: 80%;
+  height: 100%;
+
+}
+
+.header__navigation ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+
+}
+
+.navigation_link{
+  font-size: 2rem;
+  color: black;
+
+}
+
+
+
+}
