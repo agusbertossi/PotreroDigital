@@ -172,7 +172,7 @@ main section{
 
 
 #us p{
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-top: 5%;
   text-align: justify;
 }
@@ -192,8 +192,6 @@ main section{
   justify-content: center;
   align-items: center;
   margin: 20% 0;
-
-
 }
 
 .service__image{
@@ -204,7 +202,6 @@ main section{
 .service__imagefa-solidfa-seedling{
   font-size: 12rem;
   color: white;
-
 }
 
 .service__item h3{
@@ -216,11 +213,13 @@ main section{
 
 #aboutservices{
   background-color: rgb(230,230,250);
+  height: auto;
+
 }
 
 
 #aboutservices p{
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-top: 5%;
   text-align: justify;
 }
@@ -246,10 +245,10 @@ main section{
 }
 
 .contact__title{
-  font-size: 4rem;
+  font-size: 0.5rem;
   text-decoration: none;
   color: black;
-
+  justify-content: center;
 }
 
 /*FOOTER*/
@@ -264,7 +263,7 @@ footer{
 }
 
 footer span{
-  font-size: 2rem;
+  font-size: 1rem;
   color:white;
   text-align: center;
 }
